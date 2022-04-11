@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nibeon: Портфолио верстки</title>
+
+    <!-- pure css -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.1.0/build/pure-min.css" integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
+    <!-- icono.css -->
+    <link rel="stylesheet" href="https://icono-49d6.kxcdn.com/icono.min.css">
+
+    <style type="text/css">
+        #portfolio-layout {min-height: 100%;}
+        .my-menu {background-color: lightgreen;}
+        .my-menu a:hover {text-decoration: none; color: darkgreen;}
+
+        h1, th {text-align: center; vertical-align: middle;}
+        a {text-decoration: none; color:green;}
+        a:hover {text-decoration: underline;}
+
+        footer {position: absolute; bottom: 0; left: 0; background-color: lightgreen; color:black; width: 100%;}
+        footer > div > div {padding: 5px 15px;}
+        .last {text-align: right;}
+        footer i.social {color: darkgreen;}
+        footer a {color: darkslategrey;}
+        footer .contact-block {line-height: normal; text-align: center;}
+    </style>
+</head>
+<body id="portfolio-layout">
+    <div class="pure-menu pure-menu-horizontal my-menu">
+        <a href="#" class="pure-menu-heading pure-menu-link">nibeon</a>
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item">
+                <a href="#" class="pure-menu-link">Основной сайт</a>
+            </li>
+            <li class="pure-menu-item">
+                <a href="#" class="pure-menu-link">Портфолио Wordpress</a>
+            </li>
+            <li class="pure-menu-item">
+                <a href="#" class="pure-menu-link active">Портфолио верстки</a>
+            </li>
+            <li class="pure-menu-item">
+                <a href="#" class="pure-menu-link">Прочее Портфолио Сайтов</a>
+            </li>
+            <li class="pure-menu-item">
+                <a href="https://github.com/nibeon" target="_blank" class="pure-menu-link">Мой Профиль Github</a>
+            </li>
+            <li class="pure-menu-item">
+                <a href="#" class="pure-menu-link">Обо мне</a>
+            </li>
+        </ul>
+    </div>
+    <div class="pure-g">
+        <div class="pure-u-1">
+            <h1>Сверстанные странички, лендинги и т.д. для портфолио</h1>
+            
+            <table class="pure-table pure-table-horizontal">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Название странички</th>
+                        <th>Краткое описание</th>
+                        <th>Использованнаые фреймворки и библиотеки</th>
+                        <th>Ссылка</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Лендинг про ремонты</td>
+                        <td>Страничка про ремонты. 
+                            По мотивам макета с одного фриланс сайта. 
+                            Сверстано за два дня.</td>
+                        <td>
+                            <a href="https://purecss.io" target="_blank">Pure CSS</a>, 
+                            <a href="https://forkaweso.me/Fork-Awesome/" target="_blank">Fork Awesome</a>, 
+                            <a href="https://bxslider.com" target="_blank">BXSlider</a> (on jQuery)
+                        </td>
+                        <td>
+                            <a href="1/index.html" target="_blank">Лендинг про ремонты</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Страничка бизнес сайта</td>
+                        <td>Шаблон бизнес сайта. Сверстано за два дня.</td>
+                        <td>
+                            <a href="https://purecss.io" target="_blank">Pure CSS</a>, 
+                            <a href="https://forkaweso.me/Fork-Awesome/" target="_blank">Fork Awesome</a>
+                        </td>
+                        <td>
+                            <a href="2/index.html" target="_blank">Бизнес страничка</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>название</td>
+                        <td>описание</td>
+                        <td>технологии</td>
+                        <td>ссылка</td>
+                    </tr>
+                </tbody>
+            </table>
+    </div>
+    
+    <footer class="pure-g">
+        <div class="pure-u-24-24">
+            <div class="contact-block">
+                <a class="contact" href="mailto:nibeon@gmail.com" target="_blank"><i class="icono-mail social"></i></a> &nbsp;&nbsp;&nbsp;
+                <a class="contact" href="#" target="_blank"><i class="icono-facebook social"></i></a> &nbsp;&nbsp;&nbsp;
+                <a class="contact" href="#" target="_blank"><i class="icono-linkedIn social"></i></a> &nbsp;&nbsp;&nbsp;
+                <a class="contact" href="#" target="_blank"><i class="icono-instagram social"></i></a> &nbsp;&nbsp;&nbsp;
+
+                <hr>
+            </div>
+
+        </div>
+        <div class="pure-u-12-24">
+            <div>
+                &copy; 2022, nibeon.
+            </div>            
+        </div>
+        <div class="pure-u-12-24">
+            <div class="last">
+                    Сверстано с помощью <a href="purecss.io">PureCSS</a> и <a href="https://saeedalipoor.github.io/icono/">icono.css</a>
+            </div>            
+        </div>
+    </footer>
+</body>
+</html>

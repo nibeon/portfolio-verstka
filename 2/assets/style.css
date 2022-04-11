@@ -1,0 +1,201 @@
+.button-success,
+.button-error,
+.button-warning,
+.button-secondary {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.button-success {
+    background: rgb(28, 184, 65);
+    /* this is a green */
+}
+
+.button-error {
+    background: rgb(202, 60, 60);
+    /* this is a maroon */
+}
+
+.button-warning {
+    background: rgb(223, 117, 20);
+    /* this is an orange */
+}
+
+.button-secondary {
+    background: rgb(66, 184, 221);
+    /* this is a light blue */
+}
+
+.button-orange {
+    background-color: #FFC155;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+/*  */
+.container > div {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.container > header > div, .container > div > div {
+    width: 1170px;
+    margin: 0 auto;
+}
+h1, h2, h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+h4, #price h4 {
+    text-transform: inherit;
+    text-align: center;
+}
+
+
+#banner {
+    background-color: #709DCA;
+    text-align: center;
+}
+
+/* about-us block */
+#about-us {
+    background-color: #FFC155;
+}
+#about-us .left {
+    background-image: url("about-us-bg.jpg");
+    background-repeat: no-repeat;
+}
+#about-us .right {
+    color: white;
+    padding: 75px;
+}
+
+/* price block */
+#price {
+    background-color: #E7EDF3;
+    padding-bottom: 30px;
+}
+#price .left, #price .center, #price .right {
+    text-align: center;
+    text-transform: uppercase;
+}
+#price > div button {
+    text-transform: uppercase;
+    background: #FFC155;
+    color: white;
+}
+#price ul li {
+    list-style-type: none;
+    text-decoration: overline;
+    line-height: 40px;
+    height: 40px;
+}
+span.orange-text {
+    color: #FFC155;
+    font-size: 22pt;
+    font-weight: bold;
+}
+
+#price div.left, #price div.right {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+}
+#price .center {
+    padding-top: 15px;
+    padding-bottom: 45px;    
+    background-color: #709DCA;    
+}
+
+/* how block */
+#how {
+    margin-bottom: 15px;
+}
+#how div.text {
+    padding: 15px;
+    text-align: center;
+}
+#how div {
+    text-align: center;
+}
+
+/* clients block */
+#clients {
+    background-color: #FFC155;
+}
+#clients .user {
+    text-transform: uppercase;
+}
+#clients span {
+    color: #FFC155;
+}
+#clients .blockquote {
+    padding-bottom: 10px;
+}
+#clients .blockquote:before {
+    content: "\201c";
+}
+#clients .blockquote:after {
+    content: "\201d";
+}
+#clients .client-block {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+/* newsletter block */
+#newsletter .form {
+    text-align: center;
+    padding-bottom: 25px;
+}
+#newsletter .form button {
+    background-color: #FFC155;
+    text-transform: uppercase;
+}
+
+#newsletter .map {
+    text-align: center;
+    background: url(map-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px;
+    
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid gray;
+}
+#newsletter .map-info {
+    width: 285px;
+    height: 300px;
+    background-image: url(map-info-bg.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 50px;
+    color: white;
+}
+#newsletter .logo {
+    text-align: center;
+}
+
+#newsletter a.orange {
+    color: #FFC155;
+    text-decoration: none;
+}
+#newsletter a.orange:hover {
+    text-decoration: underline;
+}
+
+
+/* footer */
+.footer-menu {
+    text-align: center;
+    text-transform: uppercase;
+}
