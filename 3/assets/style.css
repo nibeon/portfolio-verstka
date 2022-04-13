@@ -1,0 +1,221 @@
+.block {
+    width: 1100px;
+    margin: 0 auto;
+}
+/* header */
+#header {
+    background-color: #87509c;
+    color: white;    
+}
+h1, h2 {
+    text-transform: uppercase;
+}
+
+.block .head hr {
+    width: 90px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.block .head h1, .block .head .h2, .block .head .h3 {
+    text-transform: uppercase;
+}
+
+header {
+    width: 1100px;
+    margin: 0 auto;
+}
+header.navbar a, header.navbar a.btn {
+    color: white;
+}
+header.navbar a.btn {
+    text-transform: uppercase;
+}
+header.navbar a.btn:hover, header.navbar a.btn:active {
+    background-color: #643a79;
+    color: white;
+}
+header.navbar {
+    padding-top: 50px;
+}
+header.title {
+    text-align: center;
+    padding: 150px;
+}
+
+/* services block */
+#services {
+    background-color: #17c2a4;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* team block */
+#team {
+    background-color: #e7f1f8;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#team h5 {
+    color: #48c1e9;
+    font-weight: lighter;
+}
+#team .social-icons {
+    padding-top: 25px;
+}
+#team .social-icons a {
+    text-decoration: none;
+    background-color: #bdd1df;
+    border-radius: 35px;
+    color: white;
+    padding: 6px 10px;
+    margin: 0 10px;    
+}
+
+/* skills block */
+#skills {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#skills .z-container {
+    position: relative;
+    width: 170px;
+    height: 180px;
+}
+#skills .base {
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    padding-top: 8px;
+    padding-left: 5px;
+}
+#skills .progress {
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: none;
+}
+#skills .percent {
+    z-index: 3;
+    position: absolute;
+    left: 50px;
+    top: 0;
+    line-height: 180px;
+    font-size: 30pt;
+}
+#skills h3 {
+    text-align: left;
+}
+
+/* portfolio block */
+#portfolio {
+    background-color: #ffdd99;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#portfolio .buttons {
+    text-align: center;
+    padding-bottom: 50px;
+} 
+#portfolio .buttons button.my-buttons {
+    margin: 5px;
+    text-transform: uppercase;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+#portfolio .buttons .my-buttons:active, #portfolio .buttons .my-buttons:hover {
+    background: white;
+    color: black;
+}
+#load-more {
+    background-color: #17c2a4;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+.folio {
+    padding-bottom: 50px;
+    text-transform: uppercase;
+}
+
+/* reviews block */
+#reviews {
+    background-color: #d74680;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#reviews .cite {
+    text-align: left;
+    padding-bottom: 20px;
+}
+#reviews .cite:before {
+    content: "\301E";
+}
+#reviews .cite:after {
+    content: "\301E";
+}
+#reviews .user-name {
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#reviews .user-role {
+    text-align: left;
+    color: #fac996;
+}
+#reviews .user {
+    padding-bottom: 100px;
+}
+#reviews h5 {
+    padding-bottom: 50px;
+}
+
+/* contacts block */
+#contacts {
+    background-color: #3c5499;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#contacts .form {
+    width: 860px;
+    text-align: center;
+    margin: 0 auto;
+}
+button#form-send {
+    background-color: #30bae7;
+    text-transform: uppercase;
+}
+form .container {
+    padding-top: 20px;
+}
+form input, form textarea {
+    margin-bottom: 20px;
+}
+
+/* footer */
+footer {
+    background-color: #344b8e;
+    text-align: center;
+    padding: 25px;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+}
+footer a:hover {
+    color: #30bae7;
+    text-decoration: none;
+}
