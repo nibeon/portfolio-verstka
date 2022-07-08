@@ -1,0 +1,196 @@
+body {
+    font-family: 'Roboto';
+}
+
+a.btn.btn-primary, button.btn.btn-primary {
+    background-color: lightcoral;
+    border-color: red;        
+    font-family: 'Roboto';
+    color: darkred;
+    font-weight: bold;
+    border-radius: 5px;
+
+    .btn.btn-link.active, .btn.btn-link:active, .btn.btn-link:focus, .btn.btn-link:hover {
+        color: white;
+        background-color: red;
+    }
+    button.btn.btn-primary:hover, .btn.btn-primary:focus, .btn.btn-primary:hover {
+        background-color: red;
+        border-color: red;
+        color: white;
+    }
+}
+.btn.btn-primary:focus, .btn.btn-primary:hover {
+    background-color: red;
+    border-color: red;
+    color: white;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+header {
+    background-color: lightcoral;
+    
+    .btn.btn-link, .navbar-brand {
+        color: darkred;
+        
+        font-family: 'Roboto';
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 10px;
+    }
+    .btn.btn-link.active, .btn.btn-link:active, .btn.btn-link:focus, .btn.btn-link:hover {
+        color: white;
+        background-color: red;
+    }
+    
+    .form-input:focus {
+        border-color: lightcoral;
+    }
+}
+
+/* about-us block */
+#about-us {
+    background-color: lightcoral;
+}
+.hero-body {
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+/* products block */
+.card-title, .card-subtitle {
+    font-weight: bold;
+}
+.card-footer {
+    text-align: right;
+}
+
+/* price and contact */
+.contact, .price {
+    width: 90%;
+    margin: 0 auto;
+}
+.form-input:focus {
+    border-color: lightcoral;
+}
+
+#prices {
+    color: white;
+    h1 {
+        padding-bottom: 30px;
+        text-shadow: 2px 2px 8px #000000;
+    }
+    .left, .center, .right {
+        padding: 20px;
+        font-weight: bold;
+        text-align: center;
+        
+        text-shadow: 2px 2px 10px #000000;
+        
+        p {
+            min-height: 200px;
+        }
+        div {
+            margin-bottom: 10px;
+        }
+    }
+    .columns {
+        margin: 20px;
+    }
+    
+        
+    .left {
+        border: 1px solid lightcoral;
+        
+    }
+    .center {
+        border: 3px solid lightcoral;
+    }
+    .right {
+        border: 1px solid lightcoral;
+    }
+}
+
+
+/* footer */
+footer {
+    background-color: lightcoral;
+    
+    padding: 50px 10px 10px 10px;
+    
+    ul {
+        li {
+            list-style-type: none;
+            
+            a, a:visited {
+                font-weight: bold;
+                color: white;
+            }
+            a:hover, a:active {
+                color: darkred;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.social-icons {
+    text-align: center;
+    
+    a {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+
+
+
+#mobile {
+    display: none;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    max-width: 150px;
+    background-color: white;
+    
+    border: 1px solid gray;
+    border-radius: 10px;
+    
+    a {
+        color: darkred;
+        font-weight: bold;
+    }
+    
+    a:hover {
+        text-decoration: none;
+    }
+    
+    ul {
+        border-top: 1px solid gray;
+        display: none;
+        /*width: 100%;*/
+        
+        li {
+            width: 100%;
+            list-style-type: none;
+            
+            :hover {
+                border-bottom: 1px solid lightcoral;
+                list-style-type: circle;
+            }
+            
+            a {
+                color: darkred;
+                font-weight: bold;
+            }
+        }
+    }
+}
