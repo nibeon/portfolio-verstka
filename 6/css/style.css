@@ -1,0 +1,184 @@
+@font-face {
+    font-family: cuprum;
+    src: url("/fonts/Cuprum-Regular.ttf");
+}
+
+/* for all */
+body {
+    font-size: 14pt;
+    font-family: cuprum;
+}
+h1 {
+    font-size: 40pt;
+    font-weight: bold;
+    text-align: justify;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 35pt;
+    font-weight: bold;
+    text-align: justify;
+}
+h3 {
+    font-size: 30pt;
+    font-weight: bold;
+    text-align: justify;
+}
+h4 {
+    font-size: 25pt;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.content {
+    width:80%;
+    margin: 0 auto;
+}
+.border-1 {
+    border: 1px solid black;
+}
+.notabene{
+    margin-top: 30px;
+    padding: 10px;
+    border: 1px solid darkgreen;
+    border-radius: 10px;
+    
+    font-weight: bold;
+    font-style: italic;
+
+    box-shadow: 0 6px 0 darkgreen;
+}
+
+
+/* header menu */
+.navbar {
+    padding: 20px 0;
+}
+.navbar .btn {
+    color: darkgreen;
+    font-weight: bolder;
+}
+.navbar .navbar-brand {
+    color: darkgreen;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navbar .btn:hover {
+    background-color: lightgreen;
+    color: darkgreen;
+}
+.navbar .btn.btn-primary {
+    background-color: darkgreen;
+    color: white;
+}
+.navbar .btn.btn-primary:hover {
+    background-color: lightgreen;
+    color: darkgreen;
+}
+input.form-input:focus {
+    border-color: lightgreen;
+    box-shadow: 0 0 0 0.1rem rgb(87 85 217 / 20%);
+}
+
+
+/* грибы */
+#griby {
+    width: 100%;
+    padding: 30px;
+    background-color: lightgreen;
+}
+#griby .btn {
+    font-size: 18pt;
+    color: darkgreen;
+    border: 1px solid darkgreen;
+    border-radius: 15px;
+    box-shadow: 2rem;
+    font-weight: bold;
+    background-color: lightgreen;
+
+    box-shadow: 0 6px 0 darkgreen;
+
+
+    margin-top: 30px;
+}
+
+#griby .btn:hover{
+    color: lightgreen;
+    background-color: darkgreen;
+    border: 1px solid lightgreen;
+}
+
+
+/* старуха мха */
+#staruha-mha {
+    width: 100%;
+    padding: 30px;
+    background-color: lightsalmon;
+}
+img.mha {
+    float: left;
+    padding: 15px;
+    size: 75%;
+}
+
+/* живопись */
+#painting {
+    width: 100%;
+    padding: 30px;
+    background-color: white;
+}
+.carousel .carousel-container .item-next, .carousel .carousel-container .item-prev {
+    background-color: darkgray;
+    border-color: darkgray;
+}
+.carousel .carousel-nav .nav-item {
+    color: darkgray;
+}
+
+/* tops */
+#tops {
+    width: 100%;
+    padding: 30px;
+    background-color: lightsalmon;
+}
+#tops .columns, #tops .columns, #tops h3 {
+    text-align: center;
+}
+
+/* contacts */
+#contacts {
+    width: 100%;
+    padding: 30px;
+}
+#contacts .container, #contacts h3 {
+    text-align: center;
+}
+.form-group .btn {
+    width: 100%;
+    border-color: darkgreen;
+    color: darkgreen;
+    border-radius: 25px;
+    background-color: lightgreen;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    /*box-shadow: 0 6px 0 darkgreen;*/
+}
+.form-group .btn:hover {
+    box-shadow: 0 3px 0 darkgreen;
+}
+
+/* футер */
+footer {
+    width: 100%;
+    padding: 30px;
+    background-color: lightgreen;
+}
+footer a, footer a:visited {
+    font-weight: bold;
+    color: darkgreen;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: dashed;
+}
